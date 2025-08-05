@@ -1,0 +1,14 @@
+cat > .gitignore << 'EOF'
+# Jenkins data
+jenkins-data/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+EOF
