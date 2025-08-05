@@ -137,7 +137,7 @@ EOF
     
     post {
         always {
-            echo "🧹 Cleanup and reporting..."
+            echo "Cleanup and reporting..."
             sh '''
                 echo "=== Build Summary ==="
                 echo "Workspace: $(pwd)"
